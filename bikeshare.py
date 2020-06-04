@@ -184,6 +184,7 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
+#Function to allow user to see raw data
 def five_lines(df):
     line = 0
     while True:
@@ -193,6 +194,7 @@ def five_lines(df):
             line+=5
         else:
             break
+
 def main():
     while True:
         city, month, day = get_filters()
