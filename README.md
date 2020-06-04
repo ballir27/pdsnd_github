@@ -3,6 +3,7 @@ Bikeshare.py and associated files were created June 3, 2020.
 
 ### Project Title
 US Bikeshare Exploration Project
+Project completed by Robert (Alex) Balli
 
 ### Description
 This project allows a user to explore bikeshare data from January through June 2017 for 3 different cities: Chicago, NYC, and Washington.
