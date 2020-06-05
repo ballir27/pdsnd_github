@@ -193,6 +193,7 @@ def raw_data(df):
             line+=5
         else:
             break
+
 def main():
     while True:
         city, month, day = get_filters()
