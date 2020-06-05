@@ -169,8 +169,8 @@ def user_stats(df):
 
     #Display earliest, most recent, and most common year of birth
     try:
-        oldest = int(df['Birth Year'].min())
-        print("The earliest birth year is", oldest)
+        early_year = int(df['Birth Year'].min())
+        print("The earliest birth year is", early_year)
 
         youngest = int(df['Birth Year'].max())
         print("The most recent birth year is", youngest)
